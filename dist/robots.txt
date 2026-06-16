@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Sitemap: https://masry0-store.vercel.app/sitemap.xml
+
+# منع الزحف إلى الملفات غير الضرورية
+Disallow: /assets/
+Disallow: /public/
+Disallow: /*.json$
+Disallow: /*.map$
+Disallow: /src/
+Disallow: /node_modules/
